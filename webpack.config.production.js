@@ -41,7 +41,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       filename: path.resolve('public', 'index.html'),
-      title: 'Banner HTML',
+      title: 'Insure Landing Page - Frontend Mentor',
       minify: {
         html5: true,
         collapseWhitespace: true,
