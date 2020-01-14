@@ -40,6 +40,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       hash: true,
+      template: path.resolve('src', 'index.html'),
       filename: path.resolve('public', 'index.html'),
       title: 'Insure Landing Page - Frontend Mentor',
       minify: {
