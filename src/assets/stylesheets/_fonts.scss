@@ -1,0 +1,24 @@
+$font-size-default: 16px;
+$font-url-default: 'https://fonts.googleapis.com/css?family=Karla:400,700&display=swap';
+$font-url-heading: 'https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap';
+
+@import url($font-url-default);
+@import url($font-url-heading);
+
+@font-face {
+  font-family: 'Karla', Arial, Helvetica, sans-serif;
+  src: url($font-url-default);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'DM Serif Display', Georgia, 'Times New Roman', Times, serif;
+  src: url($font-url-heading);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'DM Serif Display', Georgia, 'Times New Roman', Times, serif;
+  src: url($font-url-heading);
+  font-weight: 700;
+}

@@ -1,0 +1,6 @@
+@for $i from 1 to 6 {
+  h#{$i} {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 700;
+  }
+}

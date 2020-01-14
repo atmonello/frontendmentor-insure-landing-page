@@ -1,0 +1,15 @@
+@import 'colors';
+@import 'fonts';
+@import 'headings';
+
+body, html {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Karla', sans-serif;
+
+  * {
+    box-sizing: border-box;
+    font-size: $font-size-default;
+  }
+}
